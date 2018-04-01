@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Acme';
+    font-size: 20px;
+}
+
+.active {
+    color: #00838f!important;
+}
+
+.reg-button {
+    margin-right: 15px;
+}
+
+button {
+    text-transform: uppercase!important;
+}
+
+header {
+    background: url('other/unnamed.jpg') center no-repeat / cover;
+    height: 350px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-item {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.flex-item a {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.flex-item a:hover {
+    color: #00838f;
+    text-decoration: none;
+}
+
+.flex-container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item-main {
+    height: 500px;
+    width: 50%;
+    color: #fff;
+}
+
+.registration {
+    background: url('other/patch-notes-banner-3.jpg');
+    padding: 20px;
+    height: 600px;
+    color: #fff;
+}
+a.button {
+    margin-top: 0!important;
+    margin-left: 15px!important;
+    font-family: Helvetica, arial, serif;
+    color: darkgrey!important;
+    text-align:center;
+    font-size:30px;
+    cursor: pointer;
+    text-decoration: none;
+    padding:10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+      inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+      inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+      inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+      inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
+      inset 0 1px rgba(255,255,255,0.3),
+      inset 0 10px rgba(255,255,255,0.2),
+      inset 0 10px 20px rgba(255,255,255,0.25),
+      inset 0 -15px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
+      inset 0 1px rgba(255,255,255,0.3),
+      inset 0 10px rgba(255,255,255,0.2),
+      inset 0 10px 20px rgba(255,255,255,0.25),
+      inset 0 -15px 30px rgba(0,0,0,0.3);
+  }
+
+  a.button:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    color: lightslategray!important;
+  }
+section.featured-stories{padding-top: 20px; padding-bottom: 20px; background: url('assets/bg-site-1.jpg');}
+.post-img{width: 600px;height: auto;}
+
+div.post{margin-top: 10px; margin-bottom: 10px;}
+div.title-post {background: #000;}
+div.title-post > div > h2{color: #fff;}
+
+img.flogo { width: 100px;height: auto; }
+div.newfooter{background: #7b7679; padding-top: 5px;padding-bottom: 5px;}
+
+section.sbg{background: url('assets/sbg.jpg');background-repeat: no-repeat;}
+
+p.pcolor{color: #fff;}
+
+a.playnow{padding: 10px; background: #ffc107;border-radius: 10px;color:#000;margin-top: 5px;}
+a.playnow:hover{color:#fff;border:2px solid #000; }
+div.test{padding-top: 10px;}
+
+div.newborder{border-bottom: 1px dashed #000;margin-bottom: 5px;}
+section.software{margin-top: 30px;}
+
+img.team{width: 50px;height: auto;border-radius: 25px;margin-right: 10px;}
+
+/*ClockJS*/
+
+ 
+ 
+.clock {
+    margin:0 auto; 
+    padding:30px; 
+    color:#fff; 
+}
+ 
+#Date { 
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; 
+    font-size:18px; 
+    text-align:center; 
+    text-shadow:0 0 5px #000; 
+}
+ 
+ul { 
+    width:800px; 
+    margin:0 auto; 
+    padding:0px; 
+    list-style:none; 
+    text-align:center; 
+}
+ 
+ul li { 
+    display:inline; 
+    font-size:2em; 
+    text-align:center; 
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; 
+    text-shadow:0 0 5px #000; 
+}
+ 
+#point { 
+    position:relative; 
+    -moz-animation:mymove 1s ease infinite; 
+    -webkit-animation:mymove 1s ease infinite; 
+    padding-left:10px; 
+    padding-right:10px; 
+    text-shadow:0 0 5px #000; 
+}
+/* 
+@-webkit-keyframes mymove 
+{
+    0% {
+        opacity:1.0; 
+        text-shadow:0 0 20px #00c6ff;
+    }
+ 
+    50% {
+        opacity:0; 
+        text-shadow:none; 
+    }
+ 
+    100% {
+        opacity:1.0; 
+        text-shadow:0 0 20px #00c6ff; 
+    } 
+}*/
+ 
+ 
+/*@-moz-keyframes mymove 
+{
+    0% {
+        opacity:1.0; 
+        text-shadow:0 0 20px #00c6ff;
+    }
+ 
+    50% {
+        opacity:0; 
+        text-shadow:none; 
+    }
+ 
+    100% {
+        opacity:1.0; 
+        text-shadow:0 0 20px #00c6ff; 
+    } 
+}*/
